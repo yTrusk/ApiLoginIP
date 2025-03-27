@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import { PrismaClient } from "@prisma/client";
 import axios from "axios";
-
+//DATABASE_URL="mongodb+srv://ytrusk:gamesds4321@cluster0.w5pscb7.mongodb.net/TelegramBotDb?retryWrites=true&w=majority"
 const prisma = new PrismaClient();
 const app = express();
 app.set("trust proxy", true);
